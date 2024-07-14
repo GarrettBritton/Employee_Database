@@ -1,4 +1,4 @@
-INSERT INTO department (name)
+INSERT INTO department (department_name)
 VALUES  ('Sales'),
         ('Finance'),
         ('Legal'),
@@ -16,11 +16,12 @@ VALUES  ('Salesperson', 75000, 1),
         ('Customer Service', 50000, 5);
 
 INSERT INTO employee (role_id, first_name, last_name, manager_id)
-VALUES  (1, 'Rick', 'Hall', 2),
-        (2, 'Jill', 'Jacobs', NULL),
-        (3, 'Jimmy', 'John', NULL),
-        (4, 'Philip', 'Lawyer', NULL),
-        (5, 'Katie', 'Tiller', 5),
-        (6, 'Dan', 'Swell', 5),
-        (7, 'Jeff', 'Jeric', 5),
-        (8, 'Holly', 'Matt', NULL);        
+VALUES  (1, 'Robert', 'Downey', 2),
+        (2, 'James', 'Jacobs', NULL),
+        (3, 'Jimmy', 'Hogan', NULL),
+        (4, 'Tom', 'Sawyer', NULL),
+        (5, 'Kim', 'Doe', 5),
+        (6, 'Jeff', 'James', 5),
+        (7, 'Matt', 'Damon', 5),
+        (8, 'Anthony', 'Stark', NULL);
+       
